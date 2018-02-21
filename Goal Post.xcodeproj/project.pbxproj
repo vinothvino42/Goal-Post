@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D17E0F49203DED1000359D29 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E0F48203DED1000359D29 /* CreateGoalVC.swift */; };
+		D17E0F4B203DEF4B00359D29 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E0F4A203DEF4B00359D29 /* UIViewControllerExt.swift */; };
 		D1C2587C203D959D004AF5DB /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C2587B203D959D004AF5DB /* GoalType.swift */; };
 		D1C39B202039DF950003B9E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C39B1F2039DF950003B9E6 /* AppDelegate.swift */; };
 		D1C39B222039DF950003B9E6 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C39B212039DF950003B9E6 /* GoalsVC.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		D17E0F48203DED1000359D29 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		D17E0F4A203DEF4B00359D29 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		D1C2587B203D959D004AF5DB /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		D1C39B1C2039DF950003B9E6 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C39B1F2039DF950003B9E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		D1C39B372039E0030003B9E6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D17E0F4A203DEF4B00359D29 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				D1C2587C203D959D004AF5DB /* GoalType.swift in Sources */,
 				D1C39B222039DF950003B9E6 /* GoalsVC.swift in Sources */,
 				D1C39B202039DF950003B9E6 /* AppDelegate.swift in Sources */,
+				D17E0F4B203DEF4B00359D29 /* UIViewControllerExt.swift in Sources */,
 				D1C39B282039DF950003B9E6 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
