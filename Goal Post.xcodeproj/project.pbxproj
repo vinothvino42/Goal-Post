@@ -17,6 +17,8 @@
 		D1C39B2A2039DF950003B9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C39B292039DF950003B9E6 /* Assets.xcassets */; };
 		D1C39B2D2039DF950003B9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C39B2B2039DF950003B9E6 /* LaunchScreen.storyboard */; };
 		D1CF6003203B49B100DFAC11 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF6002203B49B100DFAC11 /* GoalCell.swift */; };
+		D1D67CD7203E5E770031D5A9 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D67CD6203E5E770031D5A9 /* UIViewExt.swift */; };
+		D1D67CD9203E632C0031D5A9 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D67CD8203E632C0031D5A9 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D1C39B2C2039DF950003B9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C39B2E2039DF950003B9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1CF6002203B49B100DFAC11 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		D1D67CD6203E5E770031D5A9 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		D1D67CD8203E632C0031D5A9 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				D17E0F4A203DEF4B00359D29 /* UIViewControllerExt.swift */,
+				D1D67CD6203E5E770031D5A9 /* UIViewExt.swift */,
+				D1D67CD8203E632C0031D5A9 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,8 +193,10 @@
 				D17E0F49203DED1000359D29 /* CreateGoalVC.swift in Sources */,
 				D1C2587C203D959D004AF5DB /* GoalType.swift in Sources */,
 				D1C39B222039DF950003B9E6 /* GoalsVC.swift in Sources */,
+				D1D67CD7203E5E770031D5A9 /* UIViewExt.swift in Sources */,
 				D1C39B202039DF950003B9E6 /* AppDelegate.swift in Sources */,
 				D17E0F4B203DEF4B00359D29 /* UIViewControllerExt.swift in Sources */,
+				D1D67CD9203E632C0031D5A9 /* UIButtonExt.swift in Sources */,
 				D1C39B282039DF950003B9E6 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
